@@ -1,0 +1,83 @@
+* {margin: 0; padding: 0;}
+
+
+
+div:id 
+    #wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    .columns {float:right;}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .clear-right {
+        clear:right;
+    }
+
+h1{
+    color:#307272;
+    font-family: "Aldrich", sans-serif;
+    font-weight: 20;
+    text-align: center;
+    font-style: normal;
+    text-decoration: underline;
+    margin: 5%;
+    z-index: auto;
+    position: static
+}
+
+h2{
+    color:#307272;
+    font-family: "Aldrich", sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+h3{
+    color:#307272;
+    font-family: "Aldrich", sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+ul#mainnav{ 
+    list-style-type: circle;
+    a:link { color: #2b2ba1; } 
+    a:visited { color: #9e0f9e }
+    a:hover { color: #4fb74f } 
+    background-image: url("https://img.freepik.com/premium-vector/abstract-background-with-modern-style-hexagon-pattern_7505-1722.jpg?semt=ais_hybrid&w=740");
+    background-repeat: repeat-x;
+}
+
+img{
+   width: 80%
+
+
+
+
+}
+
+p{
+    text-transform: lowercase;
+    text-align: center;
+    padding: 2%;
+    float: right;
+}
+
+body{
+    background-color: #e2f5fb
+}
+
+article{
+    overflow: visible;
+}
