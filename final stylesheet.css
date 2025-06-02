@@ -1,0 +1,17 @@
+img{
+    margin-right: 20px;
+    column-gap: 20px;
+  padding-right: 30px;
+}
+
+
+root {
+  column-gap: 20px;
+}
+
+center {
+  padding: inherit;
+  margin: auto;
+  text-align: center;
+}
+
