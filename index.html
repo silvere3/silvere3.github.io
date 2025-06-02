@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="skeleton.css" type="text/css" rel="stylesheet">
     <link href="normalize.css" type="text/css" rel="stylesheet">
+    <link href="animation.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
@@ -46,7 +47,11 @@
         </div>
 
         <div class="six columns">
-            <img class="u-full-width" src="doodle.png"
+            <div animation: slide-in> 
+                <div class:transition>
+                    <img class="u-full-width" src="doodle.png"
+                </div>
+            </div>
         </div>
     </div>
 
@@ -54,9 +59,8 @@
 
 
     <footer class="clear-right">
-
         <hr>
-            <div class="6 columns">
+            <div class="6.5 columns">
                 <p>&copy; copyright whoever</p>
                 <a href=""mailto:lee@silversteinlee.com">lee@silveresteinlee.com</a><br>
             </div>

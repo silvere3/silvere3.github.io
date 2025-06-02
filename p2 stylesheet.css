@@ -1,0 +1,90 @@
+label {
+    width: 100px;
+    height: 70px;
+    }
+
+.label .text-wrapper {
+    position: fixed;
+    width: 108px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+}
+
+.label .EATEOT {
+    position: fixed;
+    width: 380px;
+    height: 287px;
+    width: 1120px;
+    height: 170px;
+    float: center;
+}
+
+.label .eateot2 {
+    float: left
+    width: 220;
+    height: 470;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+}
+
+.div1{
+    height:200px;
+    width: 400px s;
+}
+
+.div2{
+    height:200px;
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+div:id 
+    #wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    .columns {float:right;}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .clear-right {
+        clear:right;
+    }
+
+
+    .image {
+        width: 490px;
+        height: 479px;
+}
+.image .rectangle {
+        position: fixed;
+        width: 490px;
+        height: 479px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #5f6c70
+}
