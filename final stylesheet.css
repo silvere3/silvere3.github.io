@@ -2,16 +2,62 @@ img{
     margin-right: 20px;
     column-gap: 20px;
   padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
 }
 
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 root {
   column-gap: 20px;
 }
 
-center {
-  padding: inherit;
+
+center{
   margin: auto;
-  text-align: center;
+  width: 200px;
+  display: block;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
+
+main {
+  text-align: center
+}
+
+p{
+    text-align: left;
+    padding: 10 px;
+     font-family: "montserrat", sans-serif;
+     font-size: 14px;
+}
+
+h2{
+  font-family: "Big shoulders", sans-serif;
+}
+
+h1{
+  font-family: "Big shoulders", sans-serif;
+  font-size: 65px;
+}
+
+body{
+  background: #adc2c7;
+background: linear-gradient(180deg,rgba(173, 194, 199, 1) 0%, rgba(133, 164, 166, 1) 50%, rgba(87, 109, 120, 1) 100%);
+}
